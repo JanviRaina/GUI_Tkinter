@@ -1,6 +1,6 @@
 from tkinter import *
 
-root=Tk()
+root = Tk()
 
 root.geometry("444x334")
 root.title("This_is_tut_6")
@@ -15,8 +15,7 @@ root.title("This_is_tut_6")
 # relief -border styling -SUNKEN, RAISED, GROOVE, RIDGE
 # SUNKEN IS GOOD
 
-title_label = Label(text ='''
-Abdul Rashid Salim Salman Khan is an Indian \nfilm actor, producer, occasional playback singer and
+title_label = Label(text ='''Abdul Rashid Salim Salman Khan is an Indian \nfilm actor, producer, occasional playback singer and
 television personality. In a film career spanning \nalmost thirty years, Khan has received numerous awards,
 including two National Film Awards as a film \nproducer, and two Filmfare Awards for acting. He has a 
 significant following in Asia and the Indian \ndiaspora worldwide, and is cited in the media as one of the most 
@@ -33,6 +32,5 @@ $37.7 million.''', bg ="red", fg="white", padx=13, pady=94, font="comicsansms 9 
 
 # title_label.pack(side=BOTTOM, anchor ="sw", fill=X)
 title_label.pack(side=LEFT, fill=Y, padx=34, pady=34)
-
 
 root.mainloop()
