@@ -21,3 +21,4 @@ label=Label(f,text="Frames in GUI",font="Helvetica 16 bold", fg="red", pady=22)
 label.pack(padx=6,pady=4)
 root.mainloop()
 
+
